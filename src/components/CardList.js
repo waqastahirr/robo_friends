@@ -6,7 +6,10 @@ const obj = {
   name: 'PRO',
   section: 'F',
   dob: '9-11-99',
-
+  courses: [
+    'PF',
+    'OOP'
+  ]
 };
 const cardList = ({ robots, loading }) => {
 

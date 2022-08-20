@@ -1,7 +1,10 @@
 import React from 'react';
 import Card from './Card';
 import CardSkeleton from './CardSkeleton'
-
+const obj = {
+  name: 'PRO',
+  section: 'F'
+};
 const cardList = ({ robots, loading }) => {
 
   const skeletonEntries = [1, 2, 3, 4, 5, 6, 7, 8];

@@ -12,7 +12,12 @@ const cardList = ({ robots, loading }) => {
           <CardSkeleton key={entry} />
         ) :
         robots.map(robot =>
-          <Card key={robot.id} id={robot.id} name={robot.name} email={robot.email} />
+          <Card
+            key={robot.id}
+            id={robot.id}
+            name={robot.name}
+            email={robot.email}
+          />
         )
       }
     </div>

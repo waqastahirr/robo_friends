@@ -2,8 +2,11 @@ import React from 'react';
 import Card from './Card';
 import CardSkeleton from './CardSkeleton'
 const obj = {
+  id: 1,
   name: 'PRO',
-  section: 'F'
+  section: 'F',
+  dob: '9-11-99',
+
 };
 const cardList = ({ robots, loading }) => {
 
